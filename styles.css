@@ -179,7 +179,7 @@ ul a {
 /* Site header module */
 
 .SiteHeader {
-    background-image: url(/static/img/header.jpg);
+    background-image: url(./header.jpg);
     background-color: black;
     background-size: cover;
     color: white;
