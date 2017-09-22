@@ -41,6 +41,7 @@ h1 {
 }
 
 ul,
+ol,
 p {
     font-weight: 400;
     font-size: 1.25em;
@@ -67,6 +68,10 @@ ul p {
 
 ul a {
     margin: 0;
+}
+
+ol li {
+    margin-top: 1em;
 }
 
 /* General Utilities */
@@ -305,4 +310,17 @@ ul a {
 
 .FooterText a {
     opacity: 0.5;
+}
+
+/* Terms */
+
+.Terms {
+    margin: 2em 0;
+}
+
+.Terms h1 {
+    margin: 2em 0;
+    font-size: 2em;
+    line-height: 1;
+    text-align: center;
 }
