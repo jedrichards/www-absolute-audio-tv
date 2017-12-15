@@ -1,5 +1,1 @@
-<IfModule mod_headers.c>
-RewriteEngine On 
-RewriteBase /
-RewriteRule ^(.*)index\.(html)$ http://%{HTTP_HOST}/$1 [R=301,L]
-</IfModule>
+Redirect 301 /index.html http://www.absolute-audio.tv/
