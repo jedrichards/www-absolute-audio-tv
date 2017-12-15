@@ -1,1 +1,3 @@
-Redirect 301 /index.html http://www.absolute-audio.tv/
+<IfModule !mod_rewrite.c>
+        ErrorDocument 404 /index.html
+</IfModule>
