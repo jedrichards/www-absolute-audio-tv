@@ -1,3 +1,4 @@
-RewriteEngine On
-        RewriteCond %{HTTP_HOST} ^www.absolute-audio.tv$
-        RewriteRule ^$ http://www.absolute-audio.tv/index.html [L,R=301]
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} \s/index\.html\s [NC]
+RewriteRule ^ / [L,R]
