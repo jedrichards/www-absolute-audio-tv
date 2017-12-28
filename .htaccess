@@ -1,4 +1,2 @@
-RewriteEngine on
-
-RewriteCond %{THE_REQUEST} \s/index\.html\s [NC]
-RewriteRule ^ / [L,R]
+RewriteCond %{THE_REQUEST} ^.*/index\.htm 
+RewriteRule ^(.*)index.htm$ /$1 [R=301,L]
